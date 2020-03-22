@@ -1,6 +1,7 @@
-<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
   font-family: "Poppins", sans-serif;
