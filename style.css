@@ -3,6 +3,7 @@
 body {
   /* height: 100%;
   width: 100%; */
+  background-color: transparent;
   margin-top: 62.93px;
   font-family: "Poppins", sans-serif;
   color: #222;
@@ -25,11 +26,45 @@ navbar {
   -o-background-size: cover;
   background-size: cover;
 }
+
+#research-section {
+  font-family: "Poppins", sans-serif;
+}
+#research-section h6 {
+  color: blue;
+}
+
+.bg-image {
+  /* the image you want to 'watermark' */
+  background-image: url(path/to/image/to/be/watermarked.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-image img {
+  width: 30%;
+  position: fixed;
+  top: 15%;
+  left: 35%;
+  opacity: 0.05;
+  filter: alpha(opacity=5);
+}
+
+.avatar {
+  margin: 20px;
+  text-align: center;
+}
+.avatar img {
+  width: 45%;
+}
+
+#prof {
+  width: 25%;
+}
+
 /* .bg-image {
   background-image: url("image/backgroundlogo.png");
-
   height: 100%;
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
