@@ -18,6 +18,7 @@
     ></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
+    <script src="script.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -178,22 +179,66 @@
             <!--add team image here-->
             <div class="card-body">
               <div class="text-center">
-                <h4 class="card-title">Arash Hosseini Gourbapsi</h4>
+                <h4 class="card-title">Arash Hosseini Gourbapsi (PhD)</h4>
               </div>
-              <p class="card-text">
-                Arash Hosseini is pursuing his Ph.D. program in civil
-                engineering at Concordia University. He has studied structural
-                engineering during his master's studies. His area of interest is
-                mainly BIM and IoT.
-              </p>
-              <a
-                href="https://www.linkedin.com/in/arash-hosseini-82664549"
-                target="_blank"
-              >
-                <span style="font-size: 2em;">
-                  <i class="5x fab fa-linkedin"></i>
+              <div>
+                <span
+                  class="clickable-icon"
+                  style="font-size: 2em;"
+                  onclick="openLinkedIn('https://www.linkedin.com/in/arash-hosseini-82664549')"
+                >
+                  <i class="fab fa-linkedin"></i>
                 </span>
-              </a>
+                <span
+                  class="clickable-icon"
+                  style="font-size: 2em;"
+                  data-toggle="modal"
+                  data-target="#person1"
+                >
+                  <i class="5x fas fa-info-circle"></i>
+                </span>
+              </div>
+              <div
+                class="modal fade"
+                id="person1"
+                tabindex="-1"
+                role="dialog"
+                aria-labelledby="person1"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        Arash Hosseini Gourbapsi
+                      </h5>
+                      <button
+                        type="button"
+                        class="close"
+                        data-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Arash Hosseini is pursuing his Ph.D. program in civil
+                      engineering at Concordia University. He has studied
+                      structural engineering during his master's studies. His
+                      area of interest is mainly BIM and IoT.
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
