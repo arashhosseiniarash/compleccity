@@ -1,107 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Complecity</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Complecity</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
 
-  <body>
-    <!--Navigation-->
-    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img src="image/logo.png" style="width: 32px;" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="meet-the-team.html">Meet the team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="alumini.html">Alumini</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="publications.html">Publications</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="courses.html">Courses</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="research.html">Research</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="news.html">News</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
 
-    <!--Meet the team begins 38:52-->
-    <div class="container">
-      <div class="row welcome text-center">
-        <div class="col-12">
-          <h1>Meet The Team</h1>
-        </div>
-        <hr />
+<body>
+  <!--Navigation-->
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="image/logo.png" style="width: 32px;" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="meet-the-team.html">Meet the team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="alumini.html">Alumini</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="publications.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="courses.html">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="research.html">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+        </ul>
       </div>
     </div>
-    <!--Cards begin-->
-    <div class="container">
-      <div class="row justify-content-center p-2">
-        <div class="col-md-8 align-self-center">
-          <div class="card">
-            <div class="avatar">
-              <img
-                id="prof"
-                class="rounded-circle"
-                src="https://media-exp1.licdn.com/dms/image/C5603AQHTGU-5aPuBlQ/profile-displayphoto-shrink_200_200/0?e=1590624000&v=beta&t=Jv9NdM31Nslv_cR9G0ROrQsiqacnCyyvhGfGhqO0HyA"
-              />
+  </nav>
+
+  <!--Meet the team begins 38:52-->
+  <div class="container">
+    <div class="row welcome text-center">
+      <div class="col-12">
+        <h1>Meet The Team</h1>
+      </div>
+      <hr />
+    </div>
+  </div>
+  <!--Cards begin-->
+  <div class="container">
+    <div class="row justify-content-center p-2">
+      <div class="col-md-8 align-self-center">
+        <div class="card">
+          <div class="avatar">
+            <img id="prof" class="rounded-circle"
+              src="https://media-exp1.licdn.com/dms/image/C5603AQHTGU-5aPuBlQ/profile-displayphoto-shrink_200_200/0?e=1590624000&v=beta&t=Jv9NdM31Nslv_cR9G0ROrQsiqacnCyyvhGfGhqO0HyA" />
+          </div>
+          <div class="card-body">
+            <div class="text-center">
+              <h4 class="card-title">Mazdak Nik Bakht</h4>
             </div>
-            <div class="card-body">
-              <div class="text-center">
-                <h4 class="card-title">Mazdak Nik Bakht</h4>
+            <hr />
+            <p class="card-text">
+              Dr. Nik-Bakht is head of Compleccity group and is research
+              assistant at Concordia University and his primary area of
+              research are Construction Engineering & Management and
+              Infrastructure Management
+            </p>
+            <a href="https://www.linkedin.com/in/hadyhosny" target="_blank">
+              <span style="font-size: 2em;">
+                <i class="5x fab fa-linkedin"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row p-2">
+      <div class="col-md-4">
+        <div class="card">
+          <div class="avatar">
+            <img class="rounded-circle"
+              src="https://media-exp1.licdn.com/dms/image/C4D03AQEQdCrVB_8Zwg/profile-displayphoto-shrink_200_200/0?e=1588204800&v=beta&t=g4ZGNzibZV5ouTkizJVS4WgPUZXNWj5lZMOiy4lNvJk" />
+          </div>
+          <!--add team image here-->
+          <div class="card-body">
+            <div class="text-center">
+              <h4 class="card-title">Abdelhady Hosny (PhD)</h4>
+            </div>
+            <div>
+              <span class="clickable-icon" style="font-size: 2em;"
+                onclick="openLinkedIn('https://www.linkedin.com/in/hadyhosny')">
+                <i class="fab fa-linkedin"></i>
+              </span>
+              <span class="clickable-icon" style="font-size: 2em;" data-toggle="modal" data-target="#person1">
+                <i class="5x fas fa-info-circle"></i>
+              </span>
+            </div>
+            <div class="modal fade" id="person1" tabindex="-1" role="dialog" aria-labelledby="person1"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Abdelhady Hosny
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p> Abdelhady Hosny has been a Civil engineer with focus on
+                      project management since 2009. He has completed his
+                      masters in 2013 and is currently pursuing his PHD with
+                      Concordia University. His areas of interest are focused
+                      towards smart modelling and simulation of construction
+                      operations with BIM.</p>
+                    <h5>Non-deterministic Workspace Management in Construction </h5>
+                    <p>
+                      Spatial Temporal (Operational) Clashes happen when workspaces
+                      overlap to share the same location at the same time. The impacts of
+                      such overlap, as stated by the literature could extend from loss of
+                      productivity to property damage or death. Most of the current clash
+                      detection models are deterministic. However, the behavior of the
+                      crew (their performance and approach taken towards management of
+                      clashes) is more chaotic. The chaos mainly emerges from the
+                      dependency of clashes and their consequences on the human
+                      interactions among crew members and between different crews.
+                      Accordingly, the focus of this research is to explore
+                      non-deterministic modeling alternatives for the problem, such as
+                      agent-based modelling, in an attempt for higher accuracy and better
+                      simulation
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                      Close
+                    </button>
+                  </div>
+                </div>
               </div>
-              <hr />
-              <p class="card-text">
-                Dr. Nik-Bakht is head of Compleccity group and is research
-                assistant at Concordia University and his primary area of
-                research are Construction Engineering & Management and
-                Infrastructure Management
-              </p>
-              <a href="https://www.linkedin.com/in/hadyhosny" target="_blank">
-                <span style="font-size: 2em;">
-                  <i class="5x fab fa-linkedin"></i>
-                </span>
-              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="avatar">
+            <img class="rounded-circle"
+              src="https://media-exp1.licdn.com/dms/image/C5603AQFy9_Ip8T85Ww/profile-displayphoto-shrink_200_200/0?e=1590019200&v=beta&t=ZRqupIQn_Wx1HH3DakgeOwojW2QDpkeRgBgO50h38CU" />
+          </div>
+          <!--add team image here-->
+          <div class="card-body">
+            <div class="text-center">
+              <h4 class="card-title">Araham Martinez (PhD)</h4>
+            </div>
+            <div>
+              <span class="clickable-icon" style="font-size: 2em;"
+                onclick="openLinkedIn('https://www.linkedin.com/in/araham-jesus-martinez-lagunas-abb94320')">
+                <i class="fab fa-linkedin"></i>
+              </span>
+              <span class="clickable-icon" style="font-size: 2em;" data-toggle="modal" data-target="#person1">
+                <i class="5x fas fa-info-circle"></i>
+              </span>
+            </div>
+            <div class="modal fade" id="person1" tabindex="-1" role="dialog" aria-labelledby="person1"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Araham Martinez
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Araham Martinez Lagunas studied his bachelor´s in civil
+                    engineering, and his master’s in construction management
+                    graduating from Tecnológico de Monterrey in 2012, and 2014
+                    respectively. Araham´s areas of interest have focused on
+                    the implementation of BIM and cutting-edge technologies in
+                    the construction industry, pursuing now his Phd with
+                    Concordia University.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="avatar">
+            <img class="rounded-circle"
+              src="https://media-exp1.licdn.com/dms/image/C5603AQEAKLd3F0ASPQ/profile-displayphoto-shrink_100_100/0?e=1591228800&v=beta&t=y1FjhVLbb3HAgT_CHiRpeQukuv8Ci6k4XtZCMHqO4Ek" />
+          </div>
+          <!--add team image here-->
+          <div class="card-body">
+            <div class="text-center">
+              <h4 class="card-title">Arash Hosseini Gourbapsi (PhD)</h4>
+            </div>
+            <div>
+              <span class="clickable-icon" style="font-size: 2em;"
+                onclick="openLinkedIn('https://www.linkedin.com/in/arash-hosseini-82664549')">
+                <i class="fab fa-linkedin"></i>
+              </span>
+              <span class="clickable-icon" style="font-size: 2em;" data-toggle="modal" data-target="#person1">
+                <i class="5x fas fa-info-circle"></i>
+              </span>
+            </div>
+            <div class="modal fade" id="person1" tabindex="-1" role="dialog" aria-labelledby="person1"
+              aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Arash Hosseini Gourbapsi
+                    </h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    Arash Hosseini is pursuing his Ph.D. program in civil
+                    engineering at Concordia University. He has studied
+                    structural engineering during his master's studies. His
+                    area of interest is mainly BIM and IoT.
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -110,129 +266,153 @@
         <div class="col-md-4">
           <div class="card">
             <div class="avatar">
-              <img
-                class="rounded-circle"
-                src="https://media-exp1.licdn.com/dms/image/C4D03AQEQdCrVB_8Zwg/profile-displayphoto-shrink_200_200/0?e=1588204800&v=beta&t=g4ZGNzibZV5ouTkizJVS4WgPUZXNWj5lZMOiy4lNvJk"
-              />
+              <img class="rounded-circle"
+                src="https://media-exp1.licdn.com/dms/image/C5103AQF2rOFOYnuBzg/profile-displayphoto-shrink_200_200/0?e=1590019200&v=beta&t=RbeYERjty62DkgiKVh3xVhKJTGXAbmTzFnB3jnN5e_k" />
             </div>
             <!--add team image here-->
             <div class="card-body">
               <div class="text-center">
-                <h4 class="card-title">Abdelhady Hosny</h4>
-              </div>
-              <p class="card-text">
-                Abdelhady Hosny has been a Civil engineer with focus on project
-                management since 2009. He has completed his masters in 2013 and
-                is currently pursuing his PHD with Concordia University. His
-                areas of interest are focused towards smart modelling and
-                simulation of construction operations with BIM.
-              </p>
-              <a href="https://www.linkedin.com/in/hadyhosny" target="_blank">
-                <span style="font-size: 2em;">
-                  <i class="5x fab fa-linkedin"></i>
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="avatar">
-              <img
-                class="rounded-circle"
-                src="https://media-exp1.licdn.com/dms/image/C5603AQFy9_Ip8T85Ww/profile-displayphoto-shrink_200_200/0?e=1590019200&v=beta&t=ZRqupIQn_Wx1HH3DakgeOwojW2QDpkeRgBgO50h38CU"
-              />
-            </div>
-            <!--add team image here-->
-            <div class="card-body">
-              <div class="text-center">
-                <h4 class="card-title">Araham Martinez</h4>
-              </div>
-              <p class="card-text">
-                Araham Martinez Lagunas studied his bachelor´s in civil
-                engineering, and his master’s in construction management
-                graduating from Tecnológico de Monterrey in 2012, and 2014
-                respectively. Araham´s areas of interest have focused on the
-                implementation of BIM and cutting-edge technologies in the
-                construction industry, pursuing now his Phd with Concordia
-                University.
-              </p>
-              <a
-                href="https://www.linkedin.com/in/araham-jesus-martinez-lagunas-abb94320"
-                target="_blank"
-              >
-                <span style="font-size: 2em;">
-                  <i class="5x fab fa-linkedin"></i>
-                </span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <div class="avatar">
-              <img
-                class="rounded-circle"
-                src="https://media-exp1.licdn.com/dms/image/C5603AQEAKLd3F0ASPQ/profile-displayphoto-shrink_100_100/0?e=1591228800&v=beta&t=y1FjhVLbb3HAgT_CHiRpeQukuv8Ci6k4XtZCMHqO4Ek"
-              />
-            </div>
-            <!--add team image here-->
-            <div class="card-body">
-              <div class="text-center">
-                <h4 class="card-title">Arash Hosseini Gourbapsi (PhD)</h4>
+                <h4 class="card-title">Ei Ei Chan (MASc)</h4>
               </div>
               <div>
-                <span
-                  class="clickable-icon"
-                  style="font-size: 2em;"
-                  onclick="openLinkedIn('https://www.linkedin.com/in/arash-hosseini-82664549')"
-                >
+                <span class="clickable-icon" style="font-size: 2em;"
+                  onclick="openLinkedIn('http://linkedin.com/in/ei-ei-chan-1a42a532')">
                   <i class="fab fa-linkedin"></i>
                 </span>
-                <span
-                  class="clickable-icon"
-                  style="font-size: 2em;"
-                  data-toggle="modal"
-                  data-target="#person1"
-                >
+                <span class="clickable-icon" style="font-size: 2em;" data-toggle="modal" data-target="#person1">
                   <i class="5x fas fa-info-circle"></i>
                 </span>
               </div>
-              <div
-                class="modal fade"
-                id="person1"
-                tabindex="-1"
-                role="dialog"
-                aria-labelledby="person1"
-                aria-hidden="true"
-              >
+              <div class="modal fade" id="person1" tabindex="-1" role="dialog" aria-labelledby="person1"
+                aria-hidden="true">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
                       <h5 class="modal-title" id="exampleModalLabel">
-                        Arash Hosseini Gourbapsi
+                        Farzaneh Zarei
                       </h5>
-                      <button
-                        type="button"
-                        class="close"
-                        data-dismiss="modal"
-                        aria-label="Close"
-                      >
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
                     <div class="modal-body">
-                      Arash Hosseini is pursuing his Ph.D. program in civil
-                      engineering at Concordia University. He has studied
-                      structural engineering during his master's studies. His
-                      area of interest is mainly BIM and IoT.
+                      Ei Ei Chan is a master student in Civil Engineer at the
+                      Concordia University. She has got her Bachelor of
+                      Engineering in Civil from Mandalay Technological
+                      University, Myanmar. She has 9 years of construction
+                      industry experienced especially in the area of costing
+                      and procurement, project and contract management. Her
+                      area of research interest is focused towards the modular
+                      construction contract documents.
                     </div>
                     <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-dismiss="modal"
-                      >
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="avatar">
+              <img class="rounded-circle"
+                src="https://media-exp1.licdn.com/dms/image/C5603AQE32TOSeUBXGQ/profile-displayphoto-shrink_200_200/0?e=1590019200&v=beta&t=8HEpOJnXDElO9g55WQZgN_Hn-DX4XkQEmMJ7EhdDrj4" />
+            </div>
+            <!--add team image here-->
+            <div class="card-body">
+              <div class="text-center">
+                <h4 class="card-title">Farzaneh Zarei (PhD)</h4>
+              </div>
+              <div>
+                <span class="clickable-icon" style="font-size: 2em;"
+                  onclick="openLinkedIn('http://www.linkedin.com/in/farzaneh-zarei-1404824a')">
+                  <i class="fab fa-linkedin"></i>
+                </span>
+                <span class="clickable-icon" style="font-size: 2em;" data-toggle="modal" data-target="#person1">
+                  <i class="5x fas fa-info-circle"></i>
+                </span>
+              </div>
+              <div class="modal fade" id="person1" tabindex="-1" role="dialog" aria-labelledby="person1"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        Farzaneh Zarei
+                      </h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Farzaneh Zarei, BS’11, and MS’14 is a third-year Ph.D.
+                      candidate at Concordia University. She started her
+                      education in Software Engineering in 2006 and continued
+                      her education at the University of Tehran, Iran in the
+                      field of artificial intelligence. Her fields of interest
+                      are focused towards smart-city development and opinion
+                      mining.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="avatar">
+              <img class="rounded-circle"
+                src="https://media-exp1.licdn.com/dms/image/C5103AQE21WE9Kr3_sQ/profile-displayphoto-shrink_200_200/0?e=1590019200&v=beta&t=XiLPOrGdbHo7bh9mf8tbekSNe2igVtun5eawEcFUvh4" />
+            </div>
+            <!--add team image here-->
+            <div class="card-body">
+              <div class="text-center">
+                <h4 class="card-title">(Felix) Sanggeun Choi (MASc)</h4>
+              </div>
+              <div>
+                <span class="clickable-icon" style="font-size: 2em;"
+                  onclick="openLinkedIn('https://www.linkedin.com/in/sgcmap/')">
+                  <i class="fab fa-linkedin"></i>
+                </span>
+                <span class="clickable-icon" style="font-size: 2em;" data-toggle="modal" data-target="#person1">
+                  <i class="5x fas fa-info-circle"></i>
+                </span>
+              </div>
+              <div class="modal fade" id="person1" tabindex="-1" role="dialog" aria-labelledby="person1"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">
+                        (Felix) Sanggeun Choi
+                      </h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      Sanggeun Choi (Felix) has experienced in multiple areas
+                      of construction industry as a Civil engineer, Cost
+                      estimator and Design engineer for last 5 years. His
+                      contribution was engaged in cost management, schedule
+                      control and legal arbitration. His research interest is
+                      for BIM-based collaborative process during a whole life
+                      cycle of construction projects. Since 2019, He is a
+                      graduate student og Civil Engineering at Concordia
+                      University.
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">
                         Close
                       </button>
                     </div>
@@ -246,242 +426,245 @@
           <div class="col-md-4">
             <div class="card">
               <div class="avatar">
-                <img
-                  class="rounded-circle"
-                  src="https://media-exp1.licdn.com/dms/image/C5103AQF2rOFOYnuBzg/profile-displayphoto-shrink_200_200/0?e=1590019200&v=beta&t=RbeYERjty62DkgiKVh3xVhKJTGXAbmTzFnB3jnN5e_k"
-                />
+                <img class="rounded-circle"
+                  src="https://media-exp1.licdn.com/dms/image/C5603AQGAZGLV3YObwQ/profile-displayphoto-shrink_200_200/0?e=1590019200&v=beta&t=NmVJRJhU9r-7TKBFUvztXsRlM3MzK-4hsBmldW_q-6c" />
               </div>
               <!--add team image here-->
               <div class="card-body">
                 <div class="text-center">
-                  <h4 class="card-title">Ei Ei Chan</h4>
+                  <h4 class="card-title">Leila Rafati Sokhangoo (PhD)</h4>
                 </div>
-                <p class="card-text">
-                  Ei Ei Chan is a master student in Civil Engineer at the
-                  Concordia University. She has got her Bachelor of Engineering
-                  in Civil from Mandalay Technological University, Myanmar. She
-                  has 9 years of construction industry experienced especially in
-                  the area of costing and procurement, project and contract
-                  management. Her area of research interest is focused towards
-                  the modular construction contract documents.
-                </p>
-                <a
-                  href="http://linkedin.com/in/ei-ei-chan-1a42a532"
-                  target="_blank"
-                >
-                  <span style="font-size: 2em;">
-                    <i class="5x fab fa-linkedin"></i>
+                <div>
+                  <span class="clickable-icon" style="font-size: 2em;"
+                    onclick="openLinkedIn('https://www.linkedin.com/in/leila-rafati-s')">
+                    <i class="fab fa-linkedin"></i>
                   </span>
-                </a>
+                  <span class="clickable-icon" style="font-size: 2em;" data-toggle="modal" data-target="#person1">
+                    <i class="5x fas fa-info-circle"></i>
+                  </span>
+                </div>
+                <div class="modal fade" id="person1" tabindex="-1" role="dialog" aria-labelledby="person1"
+                  aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                          Leila Rafati Sokhangoo
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        Leila Rafati Sokhangoo is currently a Ph.D. Student in
+                        Building Engineering at the Concordia University. She has six
+                        years of experience in construction industry as a reinforced
+                        concrete and steel structures designer and around five years’
+                        expertise in academia. Her areas of interest are prefabricated
+                        construction, machine learning and building performance
+                        analysis.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
           <div class="col-md-4">
             <div class="card">
               <div class="avatar">
-                <img
-                  class="rounded-circle"
-                  src="https://media-exp1.licdn.com/dms/image/C5603AQE32TOSeUBXGQ/profile-displayphoto-shrink_200_200/0?e=1590019200&v=beta&t=8HEpOJnXDElO9g55WQZgN_Hn-DX4XkQEmMJ7EhdDrj4"
-                />
+                <img class="rounded-circle"
+                  src="https://media-exp1.licdn.com/dms/image/C4D03AQHZYSy41WBKvQ/profile-displayphoto-shrink_200_200/0?e=1590019200&v=beta&t=aHtC-ObcY860l9qU-THp9nrXhiAQlgictVbQRGRn50g" />
               </div>
               <!--add team image here-->
               <div class="card-body">
                 <div class="text-center">
-                  <h4 class="card-title">Farzaneh Zarei</h4>
+                  <h4 class="card-title">Mahdis Shahidi (MASc)</h4>
                 </div>
-                <p class="card-text">
-                  Farzaneh Zarei, BS’11, and MS’14 is a third-year Ph.D.
-                  candidate at Concordia University. She started her education
-                  in Software Engineering in 2006 and continued her education at
-                  the University of Tehran, Iran in the field of artificial
-                  intelligence. Her fields of interest are focused towards
-                  smart-city development and opinion mining.
-                </p>
-                <a
-                  href="https://www.linkedin.com/in/arash-hosseini-82664549"
-                  target="_blank"
-                >
-                  <span style="font-size: 2em;">
-                    <i class="5x fab fa-linkedin"></i>
+                <div>
+                  <span class="clickable-icon" style="font-size: 2em;"
+                    onclick="openLinkedIn('https://www.linkedin.com/in/mahdisshahidi')">
+                    <i class="fab fa-linkedin"></i>
                   </span>
-                </a>
+                  <span class="clickable-icon" style="font-size: 2em;" data-toggle="modal" data-target="#person1">
+                    <i class="5x fas fa-info-circle"></i>
+                  </span>
+                </div>
+                <div class="modal fade" id="person1" tabindex="-1" role="dialog" aria-labelledby="person1"
+                  aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                          Mahdis Shahidi
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        Mahdis Shahidi is currently completing her master’s degree in
+                        building engineering in Concordia University. Her background
+                        is in Architecture with a focus on energy simulation and
+                        modeling tools. She is interested in areas related to urban
+                        energy modeling and its integration with BIM.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
+
           <div class="col-md-4">
             <div class="card">
               <div class="avatar">
-                <img
-                  class="rounded-circle"
-                  src="https://media-exp1.licdn.com/dms/image/C5103AQE21WE9Kr3_sQ/profile-displayphoto-shrink_200_200/0?e=1590019200&v=beta&t=XiLPOrGdbHo7bh9mf8tbekSNe2igVtun5eawEcFUvh4"
-                />
+                <img class="rounded-circle"
+                  src="https://media-exp1.licdn.com/dms/image/C5603AQFK4xikNgWQUQ/profile-displayphoto-shrink_200_200/0?e=1590019200&v=beta&t=MLw986heNHLFZKjZSpBVnQnR3fCVho6Dyqi64EtDZNk" />
               </div>
               <!--add team image here-->
               <div class="card-body">
                 <div class="text-center">
-                  <h4 class="card-title">(Felix) Sanggeun Choi</h4>
+                  <h4 class="card-title">Nastaran Alishahi (MASc)</h4>
                 </div>
-                <p class="card-text">
-                  Sanggeun Choi (Felix) has experienced in multiple areas of
-                  construction industry as a Civil engineer, Cost estimator and
-                  Design engineer for last 5 years. His contribution was engaged
-                  in cost management, schedule control and legal arbitration.
-                  His research interest is for BIM-based collaborative process
-                  during a whole life cycle of construction projects. Since
-                  2019, He is a graduate student og Civil Engineering at
-                  Concordia University.
-                </p>
-                <a href="https://www.linkedin.com/in/sgcmap/" target="_blank">
-                  <span style="font-size: 2em;">
-                    <i class="5x fab fa-linkedin"></i>
+                <div>
+                  <span class="clickable-icon" style="font-size: 2em;"
+                    onclick="openLinkedIn('https://www.linkedin.com/in/nastaranalishahi')">
+                    <i class="fab fa-linkedin"></i>
                   </span>
-                </a>
+                  <span class="clickable-icon" style="font-size: 2em;" data-toggle="modal" data-target="#person1">
+                    <i class="5x fas fa-info-circle"></i>
+                  </span>
+                </div>
+                <div class="modal fade" id="person1" tabindex="-1" role="dialog" aria-labelledby="person1"
+                  aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                          Nastaran Alishahi
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        Nastaran Alishahi is currently studying her master’s degree in
+                        building engineering at Concordia University. She holds a
+                        B.Sc. in Architectural Engineering and a M.Sc. in Project and
+                        Construction Management. Her areas of interest are occupant
+                        behavior, building performance and its integration with BIM.
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="row p-2">
-          <div class="col-md-4">
-            <div class="card">
-              <div class="avatar">
-                <img
-                  class="rounded-circle"
-                  src="https://media-exp1.licdn.com/dms/image/C5603AQGAZGLV3YObwQ/profile-displayphoto-shrink_200_200/0?e=1590019200&v=beta&t=NmVJRJhU9r-7TKBFUvztXsRlM3MzK-4hsBmldW_q-6c"
-                />
-              </div>
-              <!--add team image here-->
-              <div class="card-body">
-                <div class="text-center">
-                  <h4 class="card-title">Leila Rafati Sokhangoo</h4>
+
+          <div class="row p-2">
+            <div class="col-md-4">
+              <div class="card">
+                <div class="avatar">
+                  <img class="rounded-circle"
+                    src="https://media-exp1.licdn.com/dms/image/C5603AQGmeqymnmS1Cg/profile-displayphoto-shrink_200_200/0?e=1590019200&v=beta&t=XHm6ayzHgZli_W3MWtJs8nUMXBgmV56PCsYT1PZPHig" />
                 </div>
-                <p class="card-text">
-                  Leila Rafati Sokhangoo is currently a Ph.D. Student in
-                  Building Engineering at the Concordia University. She has six
-                  years of experience in construction industry as a reinforced
-                  concrete and steel structures designer and around five years’
-                  expertise in academia. Her areas of interest are prefabricated
-                  construction, machine learning and building performance
-                  analysis.
-                </p>
-                <a
-                  href="https://www.linkedin.com/in/leila-rafati-s"
-                  target="_blank"
-                >
-                  <span style="font-size: 2em;">
-                    <i class="5x fab fa-linkedin"></i>
-                  </span>
-                </a>
+                <!--add team image here-->
+                <div class="card-body">
+                  <div class="text-center">
+                    <h4 class="card-title">Rafaela Orenga Panizza (MASc)</h4>
+                  </div>
+                  <div>
+                    <span class="clickable-icon" style="font-size: 2em;"
+                      onclick="openLinkedIn('https://www.linkedin.com/in/rafaela-panizza')">
+                      <i class="fab fa-linkedin"></i>
+                    </span>
+                    <span class="clickable-icon" style="font-size: 2em;" data-toggle="modal" data-target="#person1">
+                      <i class="5x fas fa-info-circle"></i>
+                    </span>
+                  </div>
+                  <div class="modal fade" id="person1" tabindex="-1" role="dialog" aria-labelledby="person1"
+                    aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">
+                            Rafaela Orenga Panizza
+                          </h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          Rafaela Orenga Panizza graduated in environmental engineering
+                          in 2016. She is now completing her master’s degree at
+                          Concordia University and has plans to begin her PhD, also at
+                          Concordia. Her areas of interest include energy simulation,
+                          and the use of big data to help in the making of important
+                          decisions.
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                            Close
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <div class="avatar">
-                <img
-                  class="rounded-circle"
-                  src="https://media-exp1.licdn.com/dms/image/C4D03AQHZYSy41WBKvQ/profile-displayphoto-shrink_200_200/0?e=1590019200&v=beta&t=aHtC-ObcY860l9qU-THp9nrXhiAQlgictVbQRGRn50g"
-                />
-              </div>
-              <!--add team image here-->
-              <div class="card-body">
-                <div class="text-center">
-                  <h4 class="card-title">Mahdis Shahidi</h4>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="avatar">
+                  <img class="rounded-circle"
+                    src="https://media-exp1.licdn.com/dms/image/C5603AQGmeqymnmS1Cg/profile-displayphoto-shrink_200_200/0?e=1590019200&v=beta&t=XHm6ayzHgZli_W3MWtJs8nUMXBgmV56PCsYT1PZPHig" />
                 </div>
-                <p class="card-text">
-                  Mahdis Shahidi is currently completing her master’s degree in
-                  building engineering in Concordia University. Her background
-                  is in Architecture with a focus on energy simulation and
-                  modeling tools. She is interested in areas related to urban
-                  energy modeling and its integration with BIM.
-                </p>
-                <a
-                  href="https://www.linkedin.com/in/mahdisshahidi"
-                  target="_blank"
-                >
-                  <span style="font-size: 2em;">
-                    <i class="5x fab fa-linkedin"></i>
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card">
-              <div class="avatar">
-                <img
-                  class="rounded-circle"
-                  src="https://media-exp1.licdn.com/dms/image/C5603AQFK4xikNgWQUQ/profile-displayphoto-shrink_200_200/0?e=1590019200&v=beta&t=MLw986heNHLFZKjZSpBVnQnR3fCVho6Dyqi64EtDZNk"
-                />
-              </div>
-              <!--add team image here-->
-              <div class="card-body">
-                <div class="text-center">
-                  <h4 class="card-title">Nastaran Alishahi</h4>
+                <!--add team image here-->
+                <div class="card-body">
+                  <div class="text-center">
+                    <h4 class="card-title">Rafaela Orenga Panizza</h4>
+                  </div>
+                  <p class="card-text">
+                    Rafaela Orenga Panizza graduated in environmental engineering
+                    in 2016. She is now completing her master’s degree at
+                    Concordia University and has plans to begin her PhD, also at
+                    Concordia. Her areas of interest include energy simulation,
+                    and the use of big data to help in the making of important
+                    decisions.
+                  </p>
+                  <a href="https://www.linkedin.com/in/rafaela-panizza" target="_blank">
+                    <span style="font-size: 2em;">
+                      <i class="5x fab fa-linkedin"></i>
+                    </span>
+                  </a>
                 </div>
-                <p class="card-text">
-                  Nastaran Alishahi is currently studying her master’s degree in
-                  building engineering at Concordia University. She holds a
-                  B.Sc. in Architectural Engineering and a M.Sc. in Project and
-                  Construction Management. Her areas of interest are occupant
-                  behavior, building performance and its integration with BIM.
-                </p>
-                <a
-                  href="https://www.linkedin.com/in/nastaranalishahi"
-                  target="_blank"
-                >
-                  <span style="font-size: 2em;">
-                    <i class="5x fab fa-linkedin"></i>
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row p-2">
-          <div class="col-md-4">
-            <div class="card">
-              <div class="avatar">
-                <img
-                  class="rounded-circle"
-                  src="https://media-exp1.licdn.com/dms/image/C5603AQGmeqymnmS1Cg/profile-displayphoto-shrink_200_200/0?e=1590019200&v=beta&t=XHm6ayzHgZli_W3MWtJs8nUMXBgmV56PCsYT1PZPHig"
-                />
-              </div>
-              <!--add team image here-->
-              <div class="card-body">
-                <div class="text-center">
-                  <h4 class="card-title">Rafaela Orenga Panizza</h4>
-                </div>
-                <p class="card-text">
-                  Rafaela Orenga Panizza graduated in environmental engineering
-                  in 2016. She is now completing her master’s degree at
-                  Concordia University and has plans to begin her PhD, also at
-                  Concordia. Her areas of interest include energy simulation,
-                  and the use of big data to help in the making of important
-                  decisions.
-                </p>
-                <a
-                  href="https://www.linkedin.com/in/rafaela-panizza"
-                  target="_blank"
-                >
-                  <span style="font-size: 2em;">
-                    <i class="5x fab fa-linkedin"></i>
-                  </span>
-                </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+      </script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+      </script>
+</body>
+
 </html>
