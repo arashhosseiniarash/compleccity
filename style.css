@@ -35,9 +35,9 @@ navbar {
   font-family: "Poppins", sans-serif;
 }
 
-#research-section h6 {
-  color: blue;
-}
+/* #research-section h6 {
+  color: #2867B2;
+} */
 
 .bg-image {
   /* the image you want to 'watermark' */
