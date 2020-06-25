@@ -1,336 +1,253 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Compleccity</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"
-    ></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
-    <link rel="stylesheet" href="style.css" />
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Compleccity</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
 
-  <body>
-    <div class="bg-image">
-      <img src="image/backgroundlogo.png" alt="background" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="bg-image">
+    <img src="image/backgroundlogo.png" alt="background" />
+  </div>
+  <!--Navigation-->
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="image/logo.png" style="width: 32px;" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="meet-the-team.html">Meet the team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="alumini.html">Alumni</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="research.html">Research</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="publications.html">Publications</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="courses.html">Courses</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="news.html">News</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <!--Navigation-->
-    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">
-          <img src="image/logo.png" style="width: 32px;" />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarResponsive"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="meet-the-team.html">Meet the team</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="alumini.html">Alumni</a>
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="research.html">Research</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="publications.html">Publications</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="courses.html">Courses</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="news.html">News</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <div class="container">
-      <!-- <div class="bg-image"></div>
+  </nav>
+  <div class="container">
+    <!-- <div class="bg-image"></div>
       <img src="image/backgroundlogo.png" alt="background faded image" /> -->
-      <div class="row welcome text-center">
-        <div class="col-12">
-          <h1>Ongoing and Completed Research Projects</h1>
-        </div>
-        <div class="row welcome text-center">
-          <br />
-        </div>
-        <img
-          src="image/metanarrative.jpg"
-          alt="metanarrative"
-          class="img-fluid p-4"
-        />
-        <div class="col-12">
-          <h1>Other Research Activities</h1>
-        </div>
-        <div class="col-12 text-left">
-          <br />
-          <img
-            src="image/titles-10.jpg"
-            alt="BIM-IOT-Digital twin"
-            class="img-fluid button-size"
-          />
-          <br />
-          <br />
-          <h6>
-            <a target="_blank" href="">
-              Data mining ethics for smart city solutions – Citizens’ and
-              building occupants’ privacy
-            </a>
-          </h6>
-          <p>by Junlong Xiang and Ali Enjavi Amiri</p>
-          <h6>
-            <a target="_blank" href="pdf-files/Final_2.pdf">
-              Indoor occupant detection and tracking through WiFi network and
-              Machine Learning</a
-            >
-          </h6>
-          <p>by Ali Arbab</p>
-
-          <h6>
-            <a
-              target="_blank"
-              href="pdf-files/BIM-Integrated Agent-Based Modeling for Indoor Evacuation Behavior.pdf"
-              >BIM-Integrated Agent-Based Modeling for indoor evacuation
-              behavior</a
-            >
-          </h6>
-          <p>by Sina Bolandin</p>
-
-          <h6>
-            <a
-              target="_blank"
-              href="https://ascelibrary.org/doi/abs/10.1061/9780784481301.031"
-              >Analysis of BIoT-based energy business in city of Montréal –
-              Lessons learned from broader market</a
-            >
-          </h6>
-          <p>by Shivang Tarika</p>
-
-          <h6>
-            <a
-              target="_blank"
-              href="pdf-files/Bashar Alfalah (Final Project_Edited).pdf"
-              >Sustainable facility management solutions through BIM</a
-            >
-          </h6>
-          <p>by Bashar Alfalah</p>
-
-          <img
-            src="image/titles-11.jpg"
-            alt="SMART cities"
-            class="img-fluid button-size"
-          />
-          <br />
-          <br />
-
-          <h6>
-            <a target="_blank" href="pdf-files/Yasaman Niroumand-40056985.pdf">
-              Urban Information Modeling with CityGML – Case study of Coffee
-              Park – Montréal</a
-            >
-          </h6>
-          <p>by Yasaman Niroumand</p>
-
-          <h6>
-            <a
-              target="_blank"
-              href="pdf-files/CIRCULAR ECONOMY & INFRASTRUCTURE DECONSTRUCTION-  .pdf"
-            >
-              Circular economy and deconstruction of urban infrastructure – Case
-              study of Champlin Bridge – Montréal
-            </a>
-          </h6>
-          <p>by Sarangan Srikanth</p>
-
-          <h6>
-            <a
-              target="_blank"
-              href="pdf-files/Final report- Mitra Movasagh  Khaniki(Update).pdf"
-              >Smart cities; lessons learned from Smart Barcelona for the city
-              of Montréal</a
-            >
-          </h6>
-          <p>by Mitra Movasagh Khaniki</p>
-
-          <img
-            src="image/titles-12.jpg"
-            alt="BIM based process management"
-            class="img-fluid button-size"
-          />
-          <br />
-          <br />
-
-          <h6>
-            <a target="_blank" href=""
-              >Planning construction rehabilitation projects considering
-              building fire hazards</a
-            >
-          </h6>
-          <p>by Tannaz Shamsabadi and Nojan Moniri Tokmehdash</p>
-
-          <h6>
-            <a target="_blank" href="pdf-files/projectreport.pdf"
-              >File-based quality control of construction 4D models</a
-            >
-          </h6>
-          <p>by Parth Sachdeva</p>
-
-          <h6>
-            <a
-              target="_blank"
-              href="https://www.iaarc.org/publications/2019_proceedings_of_the_36th_isarc/schedule_quality_assessment_for_nd_models_using_industry_foundation_classes.html "
-              >Automated evaluation of schedule performance in construction
-              projects</a
-            >
-          </h6>
-          <p>by Rahul Dharsandia and Ashok Kavad</p>
-
-          <h6>
-            <a
-              target="_blank"
-              href="pdf-files/Farhad Taheri_Edited Project Report.pdf"
-              >Quality control in bridge construction, through BIM</a
-            >
-          </h6>
-          <p>by Farhad Taheri</p>
-
-          <h6>
-            <a
-              target="_blank"
-              href="pdf-files/ENGR 6971– PROJECT AND REPORT I .pdf"
-              >Implementation of BIM in tunnel excavation</a
-            >
-          </h6>
-          <p>by Reza Bahramzadeh</p>
-
-          <img
-            src="image/titles-13.jpg"
-            alt="Construction Document Analysis"
-            class="img-fluid button-size"
-          />
-          <br />
-          <br />
-
-          <h6>
-            <a target="_blank" href=""
-              >Topical classification of Canadian construction court cases
-            </a>
-          </h6>
-          <p>by Mohamed Rayan and Akshay Gowda Ganadalu</p>
-
-          <img
-            src="image/titles-14.jpg"
-            alt="Smart building design DSS"
-            class="img-fluid button-size"
-          />
-          <br />
-          <br />
-
-          <h6>
-            <a target="_blank" href=""
-              >Developing a classifier for detection of below energy baseline
-              building designs</a
-            >
-          </h6>
-          <p>by Mohammadjavad Anbia and Mahyar Mousavi</p>
-
-          <h6>
-            <a
-              target="_blank"
-              href="https://www.sciencedirect.com/science/article/pii/S2352710219313403?dgcid=author"
-              >Developing a decision support system for building energy
-              solutions through lifecycle cost</a
-            >
-          </h6>
-          <p>by Pierre Yves Chassain</p>
-
-          <h6>
-            <a
-              target="_blank"
-              href="https://ascelibrary.org/doi/abs/10.1061/9780784481301.025"
-              >Can “EDGE” be the solution to sustainability of commercial
-              buildings in Colombian market?</a
-            >
-          </h6>
-          <p>by Oscar Beltrán</p>
-
-          <img
-            src="image/titles-15.jpg"
-            alt="BIM-AI integration for design"
-            class="img-fluid button-size"
-          />
-          <br />
-          <br />
-
-          <h6>
-            <a
-              target="_blank"
-              href="pdf-files/Soheil-Hadian-Dehkordi-ENGR6991-Revised-Report-submission (AfterCorrections) (1).pdf"
-              >Automated design and optimization of floor joists through BIM</a
-            >
-          </h6>
-          <p>by Alireza Shoraka</p>
-
-          <h6>
-            <a
-              target="_blank"
-              href="pdf-files/Soheil-Hadian-Dehkordi-ENGR6991-Revised-Report-submission (AfterCorrections) (1).pdf"
-              >Application Of BIM to enhance existing Reverberation Time
-              estimation techniques by including effect of furniture</a
-            >
-          </h6>
-          <p>by Soheil Hadiandehkordi</p>
-
-          <h6>
-            <a
-              target="_blank"
-              href="http://www.ibpsa.org/proceedings/BS2019/BS2019_211379.pdf"
-              >Building Information Modeling for acoustics simulation and design
-              in buildings</a
-            >
-          </h6>
-          <p>by Sarah Mahabadipour</p>
-        </div>
+    <div class="row welcome text-center">
+      <div class="col-12">
+        <h1>Ongoing and Completed Research Projects</h1>
       </div>
-      <br />
+      <div class="row welcome text-center">
+        <br />
+      </div>
+      <img src="image/metanarrative.jpg" alt="metanarrative" class="img-fluid p-4" />
+      <div class="col-12">
+        <h1>Other Research Activities</h1>
+      </div>
+      <div class="col-12 text-left">
+        <br />
+        <img src="image/titles-10.jpg" alt="BIM-IOT-Digital twin" class="img-fluid button-size" />
+        <br />
+        <br />
+        <h6>
+          <a target="_blank" href="">
+            Data mining ethics for smart city solutions – Citizens’ and
+            building occupants’ privacy
+          </a>
+        </h6>
+        <p>by Junlong Xiang and Ali Enjavi Amiri</p>
+        <h6>
+          <a target="_blank" href="pdf-files/Final_2.pdf">
+            Indoor occupant detection and tracking through WiFi network and
+            Machine Learning</a>
+        </h6>
+        <p>by Ali Arbab</p>
 
-      <h5>
+        <h6>
+          <a target="_blank"
+            href="pdf-files/BIM-Integrated Agent-Based Modeling for Indoor Evacuation Behavior.pdf">BIM-Integrated
+            Agent-Based Modeling for indoor evacuation
+            behavior</a>
+        </h6>
+        <p>by Sina Bolandin</p>
+
+        <h6>
+          <a target="_blank" href="https://ascelibrary.org/doi/abs/10.1061/9780784481301.031">Analysis of BIoT-based
+            energy business in city of Montréal –
+            Lessons learned from broader market</a>
+        </h6>
+        <p>by Shivang Tarika</p>
+
+        <h6>
+          <a target="_blank" href="pdf-files/Bashar Alfalah (Final Project_Edited).pdf">Sustainable facility management
+            solutions through BIM</a>
+        </h6>
+        <p>by Bashar Alfalah</p>
+
+        <img src="image/titles-11.jpg" alt="SMART cities" class="img-fluid button-size" />
+        <br />
+        <br />
+
+        <h6>
+          <a target="_blank" href="pdf-files/Yasaman Niroumand-40056985.pdf">
+            Urban Information Modeling with CityGML – Case study of Coffee
+            Park – Montréal</a>
+        </h6>
+        <p>by Yasaman Niroumand</p>
+
+        <h6>
+          <a target="_blank" href="pdf-files/CIRCULAR ECONOMY & INFRASTRUCTURE DECONSTRUCTION-  .pdf">
+            Circular economy and deconstruction of urban infrastructure – Case
+            study of Champlin Bridge – Montréal
+          </a>
+        </h6>
+        <p>by Sarangan Srikanth</p>
+
+        <h6>
+          <a target="_blank" href="pdf-files/Final report- Mitra Movasagh  Khaniki(Update).pdf">Smart cities; lessons
+            learned from Smart Barcelona for the city
+            of Montréal</a>
+        </h6>
+        <p>by Mitra Movasagh Khaniki</p>
+
+        <img src="image/titles-12.jpg" alt="BIM based process management" class="img-fluid button-size" />
+        <br />
+        <br />
+
+        <h6>
+          <a target="_blank" href="">Planning construction rehabilitation projects considering
+            building fire hazards</a>
+        </h6>
+        <p>by Tannaz Shamsabadi and Nojan Moniri Tokmehdash</p>
+
+        <h6>
+          <a target="_blank" href="pdf-files/projectreport.pdf">File-based quality control of construction 4D models</a>
+        </h6>
+        <p>by Parth Sachdeva</p>
+
+        <h6>
+          <a target="_blank"
+            href="https://www.iaarc.org/publications/2019_proceedings_of_the_36th_isarc/schedule_quality_assessment_for_nd_models_using_industry_foundation_classes.html ">Automated
+            evaluation of schedule performance in construction
+            projects</a>
+        </h6>
+        <p>by Rahul Dharsandia and Ashok Kavad</p>
+
+        <h6>
+          <a target="_blank" href="pdf-files/Farhad Taheri_Edited Project Report.pdf">Quality control in bridge
+            construction, through BIM</a>
+        </h6>
+        <p>by Farhad Taheri</p>
+
+        <h6>
+          <a target="_blank" href="pdf-files/ENGR 6971– PROJECT AND REPORT I .pdf">Implementation of BIM in tunnel
+            excavation</a>
+        </h6>
+        <p>by Reza Bahramzadeh</p>
+
+        <img src="image/titles-13.jpg" alt="Construction Document Analysis" class="img-fluid button-size" />
+        <br />
+        <br />
+
+        <h6>
+          <a target="_blank" href="">Topical classification of Canadian construction court cases
+          </a>
+        </h6>
+        <p>by Mohamed Rayan and Akshay Gowda Ganadalu</p>
+
+        <img src="image/titles-14.jpg" alt="Smart building design DSS" class="img-fluid button-size" />
+        <br />
+        <br />
+
+        <h6>
+          <a target="_blank" href="">Developing a classifier for detection of below energy baseline
+            building designs</a>
+        </h6>
+        <p>by Mohammadjavad Anbia and Mahyar Mousavi</p>
+
+        <h6>
+          <a target="_blank"
+            href="https://www.sciencedirect.com/science/article/pii/S2352710219313403?dgcid=author">Developing a
+            decision support system for building energy
+            solutions through lifecycle cost</a>
+        </h6>
+        <p>by Pierre Yves Chassain</p>
+
+        <h6>
+          <a target="_blank" href="https://ascelibrary.org/doi/abs/10.1061/9780784481301.025">Can “EDGE” be the solution
+            to sustainability of commercial
+            buildings in Colombian market?</a>
+        </h6>
+        <p>by Oscar Beltrán</p>
+
+        <img src="image/titles-15.jpg" alt="BIM-AI integration for design" class="img-fluid button-size" />
+        <br />
+        <br />
+
+        <h6>
+          <a target="_blank"
+            href="pdf-files/Soheil-Hadian-Dehkordi-ENGR6991-Revised-Report-submission (AfterCorrections) (1).pdf">Automated
+            design and optimization of floor joists through BIM</a>
+        </h6>
+        <p>by Alireza Shoraka</p>
+
+        <h6>
+          <a target="_blank"
+            href="pdf-files/Soheil-Hadian-Dehkordi-ENGR6991-Revised-Report-submission (AfterCorrections) (1).pdf">Application
+            Of BIM to enhance existing Reverberation Time
+            estimation techniques by including effect of furniture</a>
+        </h6>
+        <p>by Soheil Hadiandehkordi</p>
+
+        <h6>
+          <a target="_blank" href="http://www.ibpsa.org/proceedings/BS2019/BS2019_211379.pdf">Building Information
+            Modeling for acoustics simulation and design
+            in buildings</a>
+        </h6>
+        <p>by Sarah Mahabadipour</p>
+      </div>
+    </div>
+  </div>
+  <div class="row welcome text-center">
+    <div class="col-12">
+      <p style="font-size: 0.875em">
         For access to project reports’ copies, please contact us at
         <a href="mailto:  mazdak.nikbakht@concordia.ca ">COMPLECCiTY Team</a>
-      </h5>
+      </p>
     </div>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+
 </html>
